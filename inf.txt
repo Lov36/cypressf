@@ -1,0 +1,8 @@
+Resumen de instrucciones de navegación:
+
+    Visitar una pagina - visit
+    Recargar pagina - reload
+    Recargar forzada o sin caché - reload(true)
+    Ir hacia adelante - go(forward)
+    Ir hacia atras - go(back)
+

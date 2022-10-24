@@ -1,7 +1,7 @@
 describe('Tipos de localizadores', () => {
 	it('Obteniendo por un tag', () => {
 		cy.visit('/automation-practice-form')
-		cy.get('input')
+		cy.get("input")
 	})
 
 	it('Obteniendo por un atributo', () => {
@@ -39,6 +39,6 @@ describe('Tipos de localizadores', () => {
 		cy.get('form').find('label')
 		//uso incorrecto de find
 
-		cy.find('label')
+		// cy.find('label')
 	})
 })
